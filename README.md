@@ -21,6 +21,10 @@ Effortlessly manage tasks using voice commands or manual input. Perfect for stay
 5. Run the app:
    - go to the server folder and run ***"npm run dev"***
    - go to the client folder and run ***"npx expo start"***
+  
+
+## Demo
+https://drive.google.com/file/d/1M2EWYSqiZJYV3xog30P0I3CLrIEBKAPS/view?usp=sharing
 
 
 ## Contributors  
