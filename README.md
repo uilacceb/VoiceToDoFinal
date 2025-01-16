@@ -13,7 +13,7 @@ Effortlessly manage tasks using voice commands or manual input. Perfect for stay
 3. Set up environment variables:
    - Create a ***.env*** file in the root folder.
    - Add the following variables:
-     - ***GOOGLE_API_KEY=your-google-speech-to-text-api-key***
+     - ***GOOGLE_API_KEY=your-google-speech-to-text-api-key*** (https://cloud.google.com/speech-to-text#turn-speech-into-text-using-google-ai)
      - ***MONGO_URI=your-mongo-uri***
 4. Update the API URLs in the client
    - Go to client/service/taskService.js and set the API_URL to ***"http://{Your Local IP Address}:3000"***
