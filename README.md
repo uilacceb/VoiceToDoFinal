@@ -1,8 +1,11 @@
 # Voice-Enabled To-Do List App  
 Effortlessly manage tasks using voice commands or manual input. Perfect for staying organized on the go!  
 
-## Features  
-- Add tasks via voice commands  
+## Key Features  
+- Add/Delete/Check/Uncheck tasks via voice commands
+- Duplicates check
+- Add one or more product in the same command.
+- Works in IOS and Android (not web)
 - Easy-to-use interface  
 
 ## Installation  
@@ -13,7 +16,7 @@ Effortlessly manage tasks using voice commands or manual input. Perfect for stay
 3. Set up environment variables:
    - Create a ***.env*** file in the root folder.
    - Add the following variables:
-     - ***GOOGLE_API_KEY=your-google-speech-to-text-api-key*** (https://cloud.google.com/speech-to-text#turn-speech-into-text-using-google-ai)
+     - ***GOOGLE_API_KEY=your-google-speech-to-text-api-key*** (You can get an Google Api key at https://cloud.google.com/speech-to-text#turn-speech-into-text-using-google-ai)
      - ***MONGO_URI=your-mongo-uri***
 4. Update the API URLs in the client
    - Go to client/service/taskService.js and set the API_URL to ***"http://{Your Local IP Address}:3000"***
